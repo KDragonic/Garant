@@ -35,7 +35,7 @@
 																	<div class="elementor-widget-container">
 																		<div class="elementor-image">
 																			<a href="https://yandex.ru/maps/-/CCQ~ELFqWD" target="_blank">
-																				<img src="wp-content/uploads/2020/10/Map-s.svg" class="attachment-full size-full" alt="" loading="lazy" /> </a>
+																				<img src="local/wp-content/uploads/2020/10/Map-s.svg" class="attachment-full size-full" alt="" loading="lazy" /> </a>
 																		</div>
 																	</div>
 																</div>
@@ -60,7 +60,7 @@
 																<div class="elementor-element elementor-element-7d6060c elementor-widget elementor-widget-image" data-id="7d6060c" data-element_type="widget" data-widget_type="image.default">
 																	<div class="elementor-widget-container">
 																		<div class="elementor-image">
-																			<img src="wp-content/uploads/2020/10/Phone-s.svg" title="Phone-s" alt="Phone-s" />
+																			<img src="local/wp-content/uploads/2020/10/Phone-s.svg" title="Phone-s" alt="Phone-s" />
 																		</div>
 																	</div>
 																</div>
@@ -364,7 +364,7 @@
 																	<div class="elementor-widget-container">
 																		<div class="elementor-image">
 																			<a href="otdelka/index.html#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6Ijg4NCIsInRvZ2dsZSI6ZmFsc2V9">
-																				<img src="wp-content/uploads/2020/10/burger-menu.svg" class="attachment-full size-full" alt="" loading="lazy" /> </a>
+																				<img src="local/wp-content/uploads/2020/10/burger-menu.svg" class="attachment-full size-full" alt="" loading="lazy" /> </a>
 																		</div>
 																	</div>
 																</div>

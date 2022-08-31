@@ -225,7 +225,7 @@
 																		<div class="elementor-widget-container">
 																			<div class="elementor-image">
 																				<a href="https://api.whatsapp.com/send?phone=79211032727" target="_blank">
-																					<img width="418" height="418" src="wp-content/uploads/2020/10/whatsapp-1.svg" class="attachment-full size-full" alt="" loading="lazy" /> </a>
+																					<img width="418" height="418" src="local/wp-content/uploads/2020/10/whatsapp-1.svg" class="attachment-full size-full" alt="" loading="lazy" /> </a>
 																			</div>
 																		</div>
 																	</div>
@@ -239,7 +239,7 @@
 																		<div class="elementor-widget-container">
 																			<div class="elementor-image">
 																				<a href="viber://chat?number=%2B79211032727" target="_blank">
-																					<img width="512" height="512" src="wp-content/uploads/2020/10/viber-1.svg" class="attachment-full size-full" alt="" loading="lazy" /> </a>
+																					<img width="512" height="512" src="local/wp-content/uploads/2020/10/viber-1.svg" class="attachment-full size-full" alt="" loading="lazy" /> </a>
 																			</div>
 																		</div>
 																	</div>
@@ -253,7 +253,7 @@
 																		<div class="elementor-widget-container">
 																			<div class="elementor-image">
 																				<a href="https://t.me/ellizium2020" target="_blank">
-																					<img width="512" height="512" src="wp-content/uploads/2020/10/telegram-1.svg" class="attachment-full size-full" alt="" loading="lazy" /> </a>
+																					<img width="512" height="512" src="local/wp-content/uploads/2020/10/telegram-1.svg" class="attachment-full size-full" alt="" loading="lazy" /> </a>
 																			</div>
 																		</div>
 																	</div>
@@ -267,7 +267,7 @@
 																		<div class="elementor-widget-container">
 																			<div class="elementor-image">
 																				<a href="https://vk.com/elliziumpro" target="_blank">
-																					<img width="2000" height="2000" src="wp-content/uploads/2021/01/изображение_2021-06-06_162023.png" class="attachment-full size-full" alt="" loading="lazy" srcset="wp-content/uploads/2021/01/изображение_2021-06-06_162023.png 2000w, wp-content/uploads/2021/01/изображение_2021-06-06_162023-300x300.png 300w, wp-content/uploads/2021/01/изображение_2021-06-06_162023-1024x1024.png 1024w, wp-content/uploads/2021/01/изображение_2021-06-06_162023-150x150.png 150w, wp-content/uploads/2021/01/изображение_2021-06-06_162023-768x768.png 768w, wp-content/uploads/2021/01/изображение_2021-06-06_162023-1536x1536.png 1536w" sizes="(max-width: 2000px) 100vw, 2000px" /> </a>
+																					<img width="2000" height="2000" src="local/wp-content/uploads/2021/01/изображение_2021-06-06_162023.png" class="attachment-full size-full" alt="" loading="lazy" srcset="local/wp-content/uploads/2021/01/изображение_2021-06-06_162023.png 2000w, local/wp-content/uploads/2021/01/изображение_2021-06-06_162023-300x300.png 300w, local/wp-content/uploads/2021/01/изображение_2021-06-06_162023-1024x1024.png 1024w, local/wp-content/uploads/2021/01/изображение_2021-06-06_162023-150x150.png 150w, local/wp-content/uploads/2021/01/изображение_2021-06-06_162023-768x768.png 768w, local/wp-content/uploads/2021/01/изображение_2021-06-06_162023-1536x1536.png 1536w" sizes="(max-width: 2000px) 100vw, 2000px" /> </a>
 																			</div>
 																		</div>
 																	</div>
@@ -298,7 +298,7 @@
 											<div class="elementor-element elementor-element-4e8732a elementor-widget elementor-widget-button" data-id="4e8732a" data-element_type="widget" data-widget_type="button.default">
 												<div class="elementor-widget-container">
 													<div class="elementor-button-wrapper">
-														<a href="wp-content/uploads/2021/06/Выписка-ЕГРЮЛ.pdf" target="_blank" rel="nofollow" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+														<a href="local/wp-content/uploads/2021/06/Выписка-ЕГРЮЛ.pdf" target="_blank" rel="nofollow" class="elementor-button-link elementor-button elementor-size-sm" role="button">
 															<span class="elementor-button-content-wrapper">
 																<span class="elementor-button-text">Выписка из ЕГРЮЛ</span>
 															</span>

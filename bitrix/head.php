@@ -4,12 +4,12 @@
 <head>
 	<meta charset="UTF-8">
 	<!-- This site is optimized with the Yoast SEO plugin v19.4 - https://yoast.com/wordpress/plugins/seo/ -->
-	<!-- <link media="all" href="https://ellizium.ru/wp-content/cache/autoptimize/css/autoptimize_e34d63db43e107cfda300606494eb7e9.css" rel="stylesheet" /> -->
+	<!-- <link media="all" href="https://ellizium.ru/local/wp-content/cache/autoptimize/css/autoptimize_e34d63db43e107cfda300606494eb7e9.css" rel="stylesheet" /> -->
 	<title>GARANT - ремонтно-отделочная компания</title>
 
 	<link rel="stylesheet"
 		type="text/css"
-		href="wp-content/cache/wpfc-minified/qhzew5of/6bvrp.css"
+		href="local/wp-content/cache/wpfc-minified/qhzew5of/6bvrp.css"
 		media="all" />
 
 	<link rel='stylesheet'
@@ -26,36 +26,36 @@
 		src='wp-includes/js/jquery/jquery-migrate.min.js@ver=3.3.2'
 		id='jquery-migrate-js'></script>
 	<script type='text/javascript'
-		src='wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js@ver=3.7.2'
+		src='local/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js@ver=3.7.2'
 		id='font-awesome-4-shim-js'></script>
 	<script type='text/javascript'
-		src='wp-content/themes/hello-elementor/js/tsxx.js@ver=5.8.4'
+		src='local/wp-content/themes/hello-elementor/js/tsxx.js@ver=5.8.4'
 		id='parent-theme-script-js'></script>
 	<script type='text/javascript'
-		src='wp-content/themes/hello-elementor/js/main.js@ver=5.8.4'
+		src='local/wp-content/themes/hello-elementor/js/main.js@ver=5.8.4'
 		id='main-theme-script-js'></script>
 	<link rel="https://api.w.org/"
-		href="wp-json/index.html" />
+		href="/local/wp-json/index.html" />
 	<link rel="alternate"
 		type="application/json"
-		href="wp-json/wp/v2/pages/77" />
+		href="/local/wp-json/wp/v2/pages/77" />
 	<link rel="EditURI"
 		type="application/rsd+xml"
 		title="RSD"
 		href="xmlrpc.php@rsd" />
 	<link rel="wlwmanifest"
 		type="application/wlwmanifest+xml"
-		href="wp-includes/wlwmanifest.xml" />
+		href="/local/wp-includes/wlwmanifest.xml" />
 	<meta name="generator"
 		content="WordPress 5.8.4" />
 	<link rel='shortlink'
 		href='otdelka/index.html' />
 	<link rel="alternate"
 		type="application/json+oembed"
-		href="wp-json/oembed/1.0/embed@url=https%253A%252F%252Fellizium.ru%252F" />
+		href="/local/wp-json/oembed/1.0/embed@url=https%253A%252F%252Fellizium.ru%252F" />
 	<link rel="alternate"
 		type="text/xml+oembed"
-		href="wp-json/oembed/1.0/embed@url=https%253A%252F%252Fellizium.ru%252F&amp;format=xml" />
+		href="/local/wp-json/oembed/1.0/embed@url=https%253A%252F%252Fellizium.ru%252F&amp;format=xml" />
 
 	<!-- GA Google Analytics @ https://m0n.co/ga -->
 	<script>
@@ -70,21 +70,21 @@
 	</script>
 
 	<link rel="preload"
-		href="wp-content/plugins/halfdata-green-forms/fonts/leform-fa.woff2"
+		href="local/wp-content/plugins/halfdata-green-forms/fonts/leform-fa.woff2"
 		as="font"
 		type="font/woff2"
 		crossorigin="anonymous" />
 	<script>var leform_customjs_handlers = {};</script>
 	<link rel="icon"
-		href="wp-content/uploads/2020/11/favicon.png"
+		href="local/wp-content/uploads/2020/11/favicon.png"
 		sizes="32x32" />
 	<link rel="icon"
-		href="wp-content/uploads/2020/11/favicon.png"
+		href="local/wp-content/uploads/2020/11/favicon.png"
 		sizes="192x192" />
 	<link rel="apple-touch-icon"
-		href="wp-content/uploads/2020/11/favicon.png" />
+		href="local/wp-content/uploads/2020/11/favicon.png" />
 	<meta name="msapplication-TileImage"
-		content="https://ellizium.ru/wp-content/uploads/2020/11/favicon.png" />
+		content="https://ellizium.ru/local/wp-content/uploads/2020/11/favicon.png" />
 
 
 	<!--Start VDZ Yandex Metrika Plugin-->

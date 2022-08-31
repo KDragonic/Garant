@@ -1,0 +1,25 @@
+jQuery( document ).ready( function() {
+    jQuery(function () {
+        jQuery('input[type=tel]').mask('+7-(999)-999-99-99');
+
+        jQuery('body').on('focus', 'input[type=tel]', function() {
+            jQuery('input[type=tel]').mask('+7-(999)-999-99-99');
+        });
+
+        function placeholderValue() {
+
+            let oldPlacaholder,
+                newPlaceholder = '+7-(___)-___-__-__';
+
+            jQuery('body').on('focus', 'input[type=tel]', function() {
+                oldPlacaholder = jQuery(this).attr('placeholder') !== undefined ? jQuery(this).attr('placeholder') : '';
+                jQuery(this).attr('placeholder', newPlaceholder);
+            });
+    
+            jQuery('body').on('blur', 'input[type=tel]', function() {
+                jQuery(this).attr('placeholder', oldPlacaholder);
+            });
+        }
+        placeholderValue();
+    });
+});

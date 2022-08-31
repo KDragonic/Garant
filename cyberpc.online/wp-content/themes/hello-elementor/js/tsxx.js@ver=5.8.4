@@ -1,0 +1,217 @@
+var hours = 72; // Reset when storage is more than 24hours
+var now = new Date().getTime();
+var setupTime = localStorage.getItem('setupTime');
+if (setupTime == null) {
+    localStorage.setItem('setupTime', now)
+} else {
+    if (now - setupTime > hours * 60 * 60 * 1000) {
+        localStorage.clear()
+        localStorage.setItem('setupTime', now);
+    }
+};
+document.addEventListener("DOMContentLoaded", function(event) {
+    jQuery('#ckb').click(function() {
+        var x = localStorage.getItem("set");
+        if (x == 1) {
+            console.log("5555");
+            elementorProFrontend.modules.popup.showPopup({ id: 2046 });
+        } else {
+            elementorProFrontend.modules.popup.showPopup({ id: 684 });
+        }
+
+
+    });
+	
+
+    jQuery('#ckbhead').click(function() {
+        var x = localStorage.getItem("set");
+        if (x == 1) {
+            console.log("5555");
+            elementorProFrontend.modules.popup.showPopup({ id: 2046 });
+        } else {
+            elementorProFrontend.modules.popup.showPopup({ id: 684 });
+        }
+
+
+    });
+	jQuery('#otz_null').click(function() {
+        var x = localStorage.getItem("set");
+        if (x == 1) {
+            console.log("otz_null");
+            elementorProFrontend.modules.popup.showPopup({ id: 2046 });
+        } else {
+            elementorProFrontend.modules.popup.showPopup({ id: 754 });
+        }
+
+
+    });
+	  jQuery('#prize_null').click(function() {
+        var x = localStorage.getItem("set");
+        if (x == 1) {
+            console.log("prize_null");
+            elementorProFrontend.modules.popup.showPopup({ id: 2046 });
+        } else {
+            elementorProFrontend.modules.popup.showPopup({ id: 700 });
+        }
+
+
+    });
+	  jQuery('#knowcost_null').click(function() {
+        var x = localStorage.getItem("set");
+        if (x == 1) {
+            console.log("5555");
+            elementorProFrontend.modules.popup.showPopup({ id: 2046 });
+        } else {
+            elementorProFrontend.modules.popup.showPopup({ id: 684 });
+        }
+
+
+    });
+		  jQuery('#requst_cv_null').click(function() {
+        var x = localStorage.getItem("set");
+        if (x == 1) {
+            console.log("requst_cv_null");
+            elementorProFrontend.modules.popup.showPopup({ id: 2046 });
+        } else {
+            elementorProFrontend.modules.popup.showPopup({ id: 1780 });
+        }
+
+
+    });
+	  jQuery('#letdo_null').click(function() {
+        var x = localStorage.getItem("set");
+        if (x == 1) {
+            console.log("letdo_null");
+            elementorProFrontend.modules.popup.showPopup({ id: 2046 });
+        } else {
+            elementorProFrontend.modules.popup.showPopup({ id: 684 });
+        }
+
+
+    });
+	  jQuery('#innerbtn_null').click(function() {
+        var x = localStorage.getItem("set");
+        if (x == 1) {
+            console.log("5555");
+            elementorProFrontend.modules.popup.showPopup({ id: 2046 });
+        } else {
+            elementorProFrontend.modules.popup.showPopup({ id: 684 });
+        }
+
+
+    });
+    jQuery('#ckbtxtx').click(function() {
+        var x = localStorage.getItem("set");
+        if (x == 1) {
+            console.log("5555");
+            elementorProFrontend.modules.popup.showPopup({ id: 2046 });
+        } else {
+            elementorProFrontend.modules.popup.showPopup({ id: 684 });
+        }
+
+
+    });
+
+    jQuery('#ckbtxph').click(function() {
+        var x = localStorage.getItem("set");
+        if (x == 1) {
+            console.log("5555");
+            elementorProFrontend.modules.popup.showPopup({ id: 2046 });
+        } else {
+            elementorProFrontend.modules.popup.showPopup({ id: 684 });
+        }
+
+
+    });
+	
+	 jQuery('#ckbtxtx_null').click(function() {
+        var x = localStorage.getItem("set");
+        if (x == 1) {
+            console.log("5555");
+            elementorProFrontend.modules.popup.showPopup({ id: 2046 });
+        } else {
+            elementorProFrontend.modules.popup.showPopup({ id: 684 });
+        }
+
+
+    });
+	
+	   jQuery('#ckbheadnull').click(function() {
+        var x = localStorage.getItem("set");
+        if (x == 1) {
+            console.log("5555");
+            elementorProFrontend.modules.popup.showPopup({ id: 2046 });
+        } else {
+            elementorProFrontend.modules.popup.showPopup({ id: 684 });
+        }
+
+
+    });
+	
+	 jQuery('#ckbtxph_null').click(function() {
+        var x = localStorage.getItem("set");
+        if (x == 1) {
+            console.log("5555");
+            elementorProFrontend.modules.popup.showPopup({ id: 2046 });
+        } else {
+            elementorProFrontend.modules.popup.showPopup({ id: 684 });
+        }
+
+
+    });
+	
+	jQuery('#prize_null').click(function() {
+        var x = localStorage.getItem("set");
+        if (x == 1) {
+            console.log("5555");
+            elementorProFrontend.modules.popup.showPopup({ id: 2046 });
+        } else {
+            elementorProFrontend.modules.popup.showPopup({ id: 700 });
+        }
+
+
+    });
+	
+	jQuery('#ckbheadfull').click(function() {        
+            console.log("ckbheadfull");
+            elementorProFrontend.modules.popup.showPopup({ id: 2046 });       
+        }   );
+	jQuery('#requst_cv_full').click(function() {        
+            console.log("requst_cv_full");
+            elementorProFrontend.modules.popup.showPopup({ id: 2046 });       
+        }   );
+	jQuery('#knowcost_full').click(function() {        
+            console.log("knowcost_full");
+            elementorProFrontend.modules.popup.showPopup({ id: 2046 });       
+        }   );
+	jQuery('#letdo_full').click(function() {        
+            console.log("letdo_full");
+            elementorProFrontend.modules.popup.showPopup({ id: 2046 });       
+        }   );
+	jQuery('#innerbtn_full').click(function() {        
+            console.log("innerbtn_full");
+            elementorProFrontend.modules.popup.showPopup({ id: 2046 });       
+        }   );
+	jQuery('#prize_full').click(function() {        
+            console.log("prize_full");
+            elementorProFrontend.modules.popup.showPopup({ id: 2046 });       
+        }   );
+	jQuery('#otz_full').click(function() {        
+            console.log("prize_full");
+            elementorProFrontend.modules.popup.showPopup({ id: 2046 });       
+        }   );
+	
+	jQuery('#ckbtxph_full').click(function() {        
+            console.log("ckbheadfull");
+            elementorProFrontend.modules.popup.showPopup({ id: 2046 });       
+        }   );
+	
+	jQuery('#ckbtxtx_full').click(function() {        
+            console.log("ckbheadfull");
+            elementorProFrontend.modules.popup.showPopup({ id: 2046 });       
+        }   );
+	jQuery("div.jet-table__cell-text:contains('от 4 980 Руб.')").html("от 3 800 Руб.");
+jQuery("div.jet-table__cell-text:contains('от 7790 Руб.')").html("от 7200 Руб.");
+});
+
+

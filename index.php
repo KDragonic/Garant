@@ -2060,7 +2060,7 @@ $APPLICATION->SetTitle("1С-Битрикс: Управление сайтом");
 										data-widget_type="theme-site-logo.default">
 										<div class="elementor-widget-container">
 											<div class="elementor-image">
-												<img src="local/logo.png"
+												<img src="/local/logo.png"
 													class="attachment-full size-full"
 													alt=""
 													loading="lazy" />
@@ -2239,7 +2239,7 @@ $APPLICATION->SetTitle("1С-Битрикс: Управление сайтом");
 										<div class="elementor-widget-container">
 											<div class="elementor-image">
 												<a href="/">
-													<img src="local/logo.png"
+													<img src="/local/logo.png"
 														class="attachment-full size-full"
 														alt=""
 														loading="lazy" /> </a>
@@ -2716,7 +2716,7 @@ $APPLICATION->SetTitle("1С-Битрикс: Управление сайтом");
 										data-widget_type="theme-site-logo.default">
 										<div class="elementor-widget-container">
 											<div class="elementor-image">
-												<img src="local/logo.png"
+												<img src="/local/logo.png"
 													class="attachment-full size-full"
 													alt=""
 													loading="lazy" />
@@ -2895,7 +2895,7 @@ $APPLICATION->SetTitle("1С-Битрикс: Управление сайтом");
 										data-widget_type="theme-site-logo.default">
 										<div class="elementor-widget-container">
 											<div class="elementor-image">
-												<img src="local/logo.png"
+												<img src="/local/logo.png"
 													class="attachment-full size-full"
 													alt=""
 													loading="lazy" />
@@ -3097,7 +3097,7 @@ $APPLICATION->SetTitle("1С-Битрикс: Управление сайтом");
 										data-widget_type="theme-site-logo.default">
 										<div class="elementor-widget-container">
 											<div class="elementor-image">
-												<img src="local/logo.png"
+												<img src="/local/logo.png"
 													class="attachment-full size-full"
 													alt=""
 													loading="lazy" />
@@ -3179,7 +3179,7 @@ $APPLICATION->SetTitle("1С-Битрикс: Управление сайтом");
 										data-widget_type="theme-site-logo.default">
 										<div class="elementor-widget-container">
 											<div class="elementor-image">
-												<img src="local/logo.png"
+												<img src="/local/logo.png"
 													class="attachment-full size-full"
 													alt=""
 													loading="lazy" />

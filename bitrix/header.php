@@ -1,116 +1,386 @@
-<?require_once($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog.php");?>
+<? require_once($_SERVER["DOCUMENT_ROOT"] . "/bitrix/modules/main/include/prolog.php"); ?>
 
-<html lang="ru-RU">
-<head>
-	<meta charset="UTF-8">
-		<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
-
-	<!-- This site is optimized with the Yoast SEO plugin v19.4 - https://yoast.com/wordpress/plugins/seo/ -->
-	<!-- <link media="all" href="https://ellizium.ru/wp-content/cache/autoptimize/css/autoptimize_e34d63db43e107cfda300606494eb7e9.css" rel="stylesheet" /> --><title>Эллизиум - ремонтно-отделочная компания в Калининграде</title>
-	<meta name="description" content="Профессиональный ремонт и отделка квартир, офисов, домов и любых помещений под ключ в Калининграде. Узнай стоимость ремонта бесплатно." />
-	<link rel="canonical" href="otdelka/index.html" />
-	<meta property="og:locale" content="ru_RU" />
-	<meta property="og:type" content="website" />
-	<meta property="og:title" content="Эллизиум - ремонтно-отделочная компания в Калининграде" />
-	<meta property="og:description" content="Профессиональный ремонт и отделка квартир, офисов, домов и любых помещений под ключ в Калининграде. Узнай стоимость ремонта бесплатно." />
-	<meta property="og:url" content="https://ellizium.ru/" />
-	<meta property="og:site_name" content="Эллизиум - ремонтно-отделочная компания в Калининграде" />
-	<meta property="article:modified_time" content="2022-02-27T18:25:46+00:00" />
-	<meta property="og:image" content="https://ellizium.ru/wp-content/uploads/2020/11/бейджик.jpg" />
-	<meta property="og:image:width" content="1692" />
-	<meta property="og:image:height" content="887" />
-	<meta property="og:image:type" content="image/jpeg" />
-	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:label1" content="Примерное время для чтения" />
-	<meta name="twitter:data1" content="4 минуты" />
-	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://ellizium.ru/#organization","name":"Ellizium","url":"https://ellizium.ru/","sameAs":[],"logo":{"@type":"ImageObject","inLanguage":"ru-RU","@id":"https://ellizium.ru/#/schema/logo/image/","url":"https://ellizium.ru/wp-content/uploads/2020/11/Лого-прозрачный-фон.svg","contentUrl":"https://ellizium.ru/wp-content/uploads/2020/11/Лого-прозрачный-фон.svg","width":100,"height":100,"caption":"Ellizium"},"image":{"@id":"https://ellizium.ru/#/schema/logo/image/"}},{"@type":"WebSite","@id":"https://ellizium.ru/#website","url":"https://ellizium.ru/","name":"Эллизиум - ремонтно-отделочная компания в Калининграде","description":"Профессиональный ремонт и отделка квартир, офисов, домов и любых помещений под ключ в Калининграде. Узнай стоимость ремонта бесплатно.","publisher":{"@id":"https://ellizium.ru/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://ellizium.ru/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"ru-RU"},{"@type":"ImageObject","inLanguage":"ru-RU","@id":"https://ellizium.ru/#primaryimage","url":"https://ellizium.ru/wp-content/uploads/2020/11/бейджик.jpg","contentUrl":"https://ellizium.ru/wp-content/uploads/2020/11/бейджик.jpg","width":1692,"height":887,"caption":"Эллизиум"},{"@type":"WebPage","@id":"https://ellizium.ru/","url":"https://ellizium.ru/","name":"Эллизиум - ремонтно-отделочная компания в Калининграде","isPartOf":{"@id":"https://ellizium.ru/#website"},"about":{"@id":"https://ellizium.ru/#organization"},"primaryImageOfPage":{"@id":"https://ellizium.ru/#primaryimage"},"image":{"@id":"https://ellizium.ru/#primaryimage"},"thumbnailUrl":"https://ellizium.ru/wp-content/uploads/2020/11/бейджик.jpg","datePublished":"2020-10-27T18:14:02+00:00","dateModified":"2022-02-27T18:25:46+00:00","description":"Профессиональный ремонт и отделка квартир, офисов, домов и любых помещений под ключ в Калининграде. Узнай стоимость ремонта бесплатно.","breadcrumb":{"@id":"https://ellizium.ru/#breadcrumb"},"inLanguage":"ru-RU","potentialAction":[{"@type":"ReadAction","target":["https://ellizium.ru/"]}]},{"@type":"BreadcrumbList","@id":"https://ellizium.ru/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Главная страница"}]}]}</script>
-	<!-- / Yoast SEO plugin. -->
-
-
-<link rel='dns-prefetch' href='https://s.w.org/' />
-<link rel='dns-prefetch' href='https://api-maps.yandex.ru/' />
-<link rel='preconnect' href='https://api-maps.yandex.ru/' />
-<link rel="alternate" type="application/rss+xml" title="Эллизиум - ремонтно-отделочная компания в Калининграде &raquo; Лента" href="feed/index.html" />
-<link rel="alternate" type="application/rss+xml" title="Эллизиум - ремонтно-отделочная компания в Калининграде &raquo; Лента комментариев" href="comments/feed/index.html" />
-		<script type="text/javascript">
-			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/ellizium.ru\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.8.4"}};
-			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([10084,65039,8205,55357,56613],[10084,65039,8203,55357,56613])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
-		</script>
-		
-	
-
-
-
-
-
-<!-- <link rel='stylesheet' id='elementor-post-6-css'  href='https://ellizium.ru/wp-content/cache/autoptimize/css/autoptimize_single_ab15700dfc7688aa6a80c19b3faf2468.css?ver=1661096930' type='text/css' media='all' /> -->
-
-
-
-
-<!-- <link rel='stylesheet' id='elementor-global-css'  href='https://ellizium.ru/wp-content/cache/autoptimize/css/autoptimize_single_81c742bdd15d2227588d3d2afb878489.css?ver=1661096930' type='text/css' media='all' /> -->
-<!-- <link rel='stylesheet' id='elementor-post-77-css'  href='https://ellizium.ru/wp-content/cache/autoptimize/css/autoptimize_single_80bb724f2ef6c46d85c26701f2d63fa7.css?ver=1661096931' type='text/css' media='all' /> -->
-
-<!-- <link rel='stylesheet' id='elementor-post-1534-css'  href='https://ellizium.ru/wp-content/cache/autoptimize/css/autoptimize_single_387f2166067e07a9a484634850817b16.css?ver=1661096931' type='text/css' media='all' /> -->
-<!-- <link rel='stylesheet' id='elementor-post-1580-css'  href='https://ellizium.ru/wp-content/cache/autoptimize/css/autoptimize_single_625da94e5060aa5c1b94204720ed2060.css?ver=1661096931' type='text/css' media='all' /> -->
-
-
-<!-- <link rel='stylesheet' id='elementor-post-2046-css'  href='https://ellizium.ru/wp-content/cache/autoptimize/css/autoptimize_single_9032c5fc7f034c8c0f181f1ee94a7d9a.css?ver=1661096931' type='text/css' media='all' /> -->
-<!-- <link rel='stylesheet' id='elementor-post-1780-css'  href='https://ellizium.ru/wp-content/cache/autoptimize/css/autoptimize_single_d49636eb1d5b6a51d4a6504ae540adb0.css?ver=1661096931' type='text/css' media='all' /> -->
-<!-- <link rel='stylesheet' id='elementor-post-700-css'  href='https://ellizium.ru/wp-content/cache/autoptimize/css/autoptimize_single_ee5ef0d68c67aa420407502d2abbab20.css?ver=1661096931' type='text/css' media='all' /> -->
-<!-- <link rel='stylesheet' id='elementor-post-684-css'  href='https://ellizium.ru/wp-content/cache/autoptimize/css/autoptimize_single_9ff79832566e6e8f1851b20e6005c786.css?ver=1661096931' type='text/css' media='all' /> -->
-<link rel="stylesheet" type="text/css" href="wp-content/cache/wpfc-minified/qhzew5of/6bvrp.css" media="all"/>
-
-
-
-<link rel='stylesheet' id='google-fonts-1-css'  href='https://fonts.googleapis.com/css?family=Oswald%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;subset=cyrillic&#038;ver=5.8.4' type='text/css' media='all' />
-
-
-
-<script type='text/javascript' src='wp-includes/js/jquery/jquery.min.js@ver=3.6.0' id='jquery-core-js'></script>
-<script type='text/javascript' src='wp-includes/js/jquery/jquery-migrate.min.js@ver=3.3.2' id='jquery-migrate-js'></script>
-<script type='text/javascript' src='wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js@ver=3.7.2' id='font-awesome-4-shim-js'></script>
-<script type='text/javascript' src='wp-content/themes/hello-elementor/js/tsxx.js@ver=5.8.4' id='parent-theme-script-js'></script>
-<script type='text/javascript' src='wp-content/themes/hello-elementor/js/main.js@ver=5.8.4' id='main-theme-script-js'></script>
-<link rel="https://api.w.org/" href="wp-json/index.html" /><link rel="alternate" type="application/json" href="wp-json/wp/v2/pages/77" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc.php@rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml" /> 
-<meta name="generator" content="WordPress 5.8.4" />
-<link rel='shortlink' href='otdelka/index.html' />
-<link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embed@url=https%253A%252F%252Fellizium.ru%252F" />
-<link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embed@url=https%253A%252F%252Fellizium.ru%252F&amp;format=xml" />
-
-		<!-- GA Google Analytics @ https://m0n.co/ga -->
-		<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-			ga('create', 'UA-185043191-1', 'auto');
-			ga('send', 'pageview');
-		</script>
-
-	<link rel="preload" href="wp-content/plugins/halfdata-green-forms/fonts/leform-fa.woff2" as="font" type="font/woff2" crossorigin="anonymous" /><script>var leform_customjs_handlers = {};</script><link rel="icon" href="wp-content/uploads/2020/11/favicon.png" sizes="32x32" />
-<link rel="icon" href="wp-content/uploads/2020/11/favicon.png" sizes="192x192" />
-<link rel="apple-touch-icon" href="wp-content/uploads/2020/11/favicon.png" />
-<meta name="msapplication-TileImage" content="https://ellizium.ru/wp-content/uploads/2020/11/favicon.png" />
-		
-		
-<!--Start VDZ Yandex Metrika Plugin-->
-<!-- Yandex.Metrika counter --><script type="text/javascript" >(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");ym(69180868, "init", {clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true, ecommerce:"dataLayer"});</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/69180868" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter --><!--START ADD EVENTS FROM CF7--><script type='text/javascript'>document.addEventListener( 'wpcf7submit', function( event ) {
-					  //event.detail.contactFormId;
-					  if(ym){
-				          //console.log(event.detail);
-						  ym(69180868, 'reachGoal', 'VDZ_SEND_CONTACT_FORM_7');
-						  ym(69180868, 'params', {
-						      page_url: window.location.href, 
-						      status: event.detail.status, 
-						      locale: event.detail.contactFormLocale, 
-						      form_id: event.detail.contactFormId, 
-						  });
-					  }
-					}, false );
-				</script><!--END ADD EVENTS FROM CF7-->
-<!--End VDZ Yandex Metrika Plugin-->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" /></head>
+<header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
+	<p class="main-title bhf-hidden" itemprop="headline"><a href="otdelka/index.html" title="Эллизиум &#8211; ремонтно-отделочная компания в Калининграде" rel="home">Эллизиум &#8211; ремонтно-отделочная компания в Калининграде</a></p>
+	<div data-elementor-type="wp-post" data-elementor-id="1534" class="elementor elementor-1534">
+		<div class="elementor-inner">
+			<div class="elementor-section-wrap">
+				<header class="elementor-section elementor-top-section elementor-element elementor-element-c5ed4db elementor-section-full_width elementor-hidden-phone elementor-hidden-tablet elementor-section-stretched elementor-section-height-default elementor-section-height-default" data-id="c5ed4db" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;sticky&quot;:&quot;top&quot;,&quot;sticky_on&quot;:[&quot;desktop&quot;],&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0}">
+					<div class="elementor-container elementor-column-gap-no">
+						<div class="elementor-row">
+							<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-4af1cb6" data-id="4af1cb6" data-element_type="column">
+								<div class="elementor-column-wrap elementor-element-populated">
+									<div class="elementor-widget-wrap">
+										<div class="elementor-element elementor-element-a5b2fc5 elementor-widget elementor-widget-theme-site-logo elementor-widget-image" data-id="a5b2fc5" data-element_type="widget" data-widget_type="theme-site-logo.default">
+											<div class="elementor-widget-container">
+												<div class="elementor-image">
+													<a href="/">
+														<img src="logo.png" class="attachment-full size-full" alt="" loading="lazy" /> </a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-7259cb3" data-id="7259cb3" data-element_type="column">
+								<div class="elementor-column-wrap elementor-element-populated">
+									<div class="elementor-widget-wrap">
+										<section class="elementor-section elementor-inner-section elementor-element elementor-element-a13e32e elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="a13e32e" data-element_type="section">
+											<div class="elementor-container elementor-column-gap-no">
+												<div class="elementor-row">
+													<div class="elementor-column elementor-col-16 elementor-inner-column elementor-element elementor-element-ac0fe0f" data-id="ac0fe0f" data-element_type="column">
+														<div class="elementor-column-wrap elementor-element-populated">
+															<div class="elementor-widget-wrap">
+																<div class="elementor-element elementor-element-2c7e1e4 elementor-widget elementor-widget-image" data-id="2c7e1e4" data-element_type="widget" data-widget_type="image.default">
+																	<div class="elementor-widget-container">
+																		<div class="elementor-image">
+																			<a href="https://yandex.ru/maps/-/CCQ~ELFqWD" target="_blank">
+																				<img src="wp-content/uploads/2020/10/Map-s.svg" class="attachment-full size-full" alt="" loading="lazy" /> </a>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="elementor-column elementor-col-16 elementor-inner-column elementor-element elementor-element-fa0b64f" data-id="fa0b64f" data-element_type="column">
+														<div class="elementor-column-wrap elementor-element-populated">
+															<div class="elementor-widget-wrap">
+																<div class="elementor-element elementor-element-40b5412 elementor-widget elementor-widget-heading" data-id="40b5412" data-element_type="widget" data-widget_type="heading.default">
+																	<div class="elementor-widget-container">
+																		<div class="elementor-heading-title elementor-size-default"><a href="https://yandex.ru/maps/-/CCUemMv~tB" target="_blank">ИП Булгаков В.И. Калининград,<br>п. Большое Иссакого, ул.
+																				Уютная 14</a></div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="elementor-column elementor-col-16 elementor-inner-column elementor-element elementor-element-5d98ffc" data-id="5d98ffc" data-element_type="column">
+														<div class="elementor-column-wrap elementor-element-populated">
+															<div class="elementor-widget-wrap">
+																<div class="elementor-element elementor-element-7d6060c elementor-widget elementor-widget-image" data-id="7d6060c" data-element_type="widget" data-widget_type="image.default">
+																	<div class="elementor-widget-container">
+																		<div class="elementor-image">
+																			<img src="wp-content/uploads/2020/10/Phone-s.svg" title="Phone-s" alt="Phone-s" />
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="elementor-column elementor-col-16 elementor-inner-column elementor-element elementor-element-a643d91" data-id="a643d91" data-element_type="column">
+														<div class="elementor-column-wrap elementor-element-populated">
+															<div class="elementor-widget-wrap">
+																<div data-wpl_tracker="{&quot;yandex_metrika&quot;:true,&quot;yandex_metrika_event_name&quot;:&quot;numberone&quot;,&quot;yandex_metrika_id&quot;:&quot;69180868&quot;}" class="events-tracker-for-elementor elementor-element elementor-element-56ec079 elementor-widget elementor-widget-heading" data-id="56ec079" data-element_type="widget" data-widget_type="heading.default">
+																	<div class="elementor-widget-container">
+																		<div class="elementor-heading-title elementor-size-default"><a href="tel:79622615654" target="_blank">+7 (962) 261 5654</a></div>
+																	</div>
+																</div>
+																<div data-wpl_tracker="{&quot;yandex_metrika&quot;:true,&quot;yandex_metrika_event_name&quot;:&quot;numbertwo&quot;,&quot;yandex_metrika_id&quot;:&quot;69180868&quot;}" class="events-tracker-for-elementor elementor-element elementor-element-f992c01 elementor-widget elementor-widget-heading" data-id="f992c01" data-element_type="widget" data-widget_type="heading.default">
+																	<div class="elementor-widget-container">
+																		<div class="elementor-heading-title elementor-size-default"><a href="tel:79612615654" target="_blank">+7 (961) 261 5654</a></div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="elementor-column elementor-col-16 elementor-inner-column elementor-element elementor-element-d19f20f d-flex" data-id="d19f20f" data-element_type="column">
+														<div class="elementor-column-wrap elementor-element-populated">
+															<div class="elementor-widget-wrap">
+																<div class="elementor-element elementor-element-7ec702a elementor-shape-rounded elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons" data-id="7ec702a" data-element_type="widget" data-widget_type="social-icons.default">
+																	<div class="elementor-widget-container">
+																		<div class="elementor-social-icons-wrapper elementor-grid">
+																			<span class="elementor-grid-item">
+																				<a class="elementor-icon elementor-social-icon elementor-social-icon-vk elementor-repeater-item-312d1ab" href="https://vk.com/elliziumpro" target="_blank">
+																					<span class="elementor-screen-only">Vk</span>
+																					<i class="fab fa-vk"></i> </a>
+																			</span>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="elementor-column elementor-col-16 elementor-inner-column elementor-element elementor-element-3fb449e" data-id="3fb449e" data-element_type="column">
+														<div class="elementor-column-wrap elementor-element-populated">
+															<div class="elementor-widget-wrap">
+																<div data-wpl_tracker="{&quot;yandex_metrika&quot;:true,&quot;yandex_metrika_event_name&quot;:&quot;ym(69180868,&#039;reachGoal&#039;,&#039;vizovzamershika&#039;)&quot;,&quot;yandex_metrika_id&quot;:&quot;69180868&quot;}" class="events-tracker-for-elementor elementor-element elementor-element-609e9cd elementor-align-right elementor-widget elementor-widget-button" data-id="609e9cd" data-element_type="widget" data-widget_type="button.default">
+																	<div class="elementor-widget-container">
+																		<div class="elementor-button-wrapper">
+																			<a href="otdelka/index.html#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjY4NCIsInRvZ2dsZSI6ZmFsc2V9" class="elementor-button-link elementor-button elementor-size-sm elementor-animation-float" role="button" id="ckbheadfull">
+																				<span class="elementor-button-content-wrapper">
+																					<span class="elementor-button-text">Оставить заявку<br> <span class="main-weight">(Бесплатно)</span></span>
+																				</span>
+																			</a>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</section>
+										<div class="elementor-element elementor-element-a388371 elementor-nav-menu--dropdown-none elementor-nav-menu__align-justify elementor-widget elementor-widget-nav-menu" data-id="a388371" data-element_type="widget" data-settings="{&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-chevron-down\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;},&quot;layout&quot;:&quot;horizontal&quot;}" data-widget_type="nav-menu.default">
+											<div class="elementor-widget-container">
+												<nav migration_allowed="1" migrated="0" role="navigation" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-underline e--animation-slide">
+													<ul id="menu-1-a388371" class="elementor-nav-menu">
+														<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3064"><a href="stroika.html" class="elementor-item">Строительство</a></li>
+														<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-77 current_page_item menu-item-3065">
+															<a href="otdelka/index.html" aria-current="page" class="elementor-item elementor-item-active">Отделка</a>
+														</li>
+														<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-99">
+															<a class="elementor-item">Услуги</a>
+															<ul class="sub-menu elementor-nav-menu--dropdown">
+																<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3069">
+																	<a class="elementor-sub-item">Строительно-монтажные работы</a>
+																	<ul class="sub-menu elementor-nav-menu--dropdown">
+																		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3138">
+																			<a href="index.html@p=2980.html" class="elementor-sub-item">Строительство домов</a>
+																		</li>
+																		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3083">
+																			<a href="index.html@p=2972.html" class="elementor-sub-item">Фундаментные работы</a>
+																		</li>
+																		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3080">
+																			<a href="index.html@p=2995.html" class="elementor-sub-item">Кровельные работы</a>
+																		</li>
+																		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3081">
+																			<a href="index.html@p=2990.html" class="elementor-sub-item">Фасадные работы</a>
+																		</li>
+																		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3082">
+																			<a href="index.html@p=2985.html" class="elementor-sub-item">Строительство заборов</a>
+																		</li>
+																		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3079">
+																			<a href="index.html@p=3000.html" class="elementor-sub-item">Ландшафтные работы</a>
+																		</li>
+																	</ul>
+																</li>
+																<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3068">
+																	<a class="elementor-sub-item">Ремонтно-отделочные работы</a>
+																	<ul class="sub-menu elementor-nav-menu--dropdown">
+																		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-803">
+																			<a href="index.html@p=714.html" class="elementor-sub-item"><span class="menu-line">Ремонт квартир</span></a>
+																		</li>
+																		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-802">
+																			<a href="index.html@p=794.html" class="elementor-sub-item"><span class="menu-line">Ремонт домов и
+																					коттеджей</span></a>
+																		</li>
+																		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-822">
+																			<a href="index.html@p=820.html" class="elementor-sub-item"><span class="menu-line">Ремонт коммерческих
+																					помещений</span></a>
+																		</li>
+																		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3836">
+																			<a href="index.html@p=3779.html" class="elementor-sub-item"><span class="menu-line">Теплый пол</span></a>
+																		</li>
+																		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3837">
+																			<a href="index.html@p=3795.html" class="elementor-sub-item"><span class="menu-line">Стяжка пола</span></a>
+																		</li>
+																		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5075">
+																			<a href="механизированная-штукатурка/index.html" class="elementor-sub-item"><span class="menu-line">Механизированная
+																					штукатурка</span></a>
+																		</li>
+																		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5076">
+																			<a href="безвоздушная-шпаклевка/index.html" class="elementor-sub-item"><span class="menu-line">Безвоздушная
+																					шпаклевка</span></a>
+																		</li>
+																		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5077">
+																			<a href="безвоздушная-покраска/index.html" class="elementor-sub-item"><span class="menu-line">Безвоздушная
+																					покраска</span></a>
+																		</li>
+																	</ul>
+																</li>
+																<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4757">
+																	<a class="elementor-sub-item">Дизайн интерьера</a>
+																	<ul class="sub-menu elementor-nav-menu--dropdown">
+																		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4831">
+																			<a href="дизайн-интерьера-2/index.html" class="elementor-sub-item">Дизайн интерьера</a>
+																		</li>
+																	</ul>
+																</li>
+																<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4979">
+																	<a class="elementor-sub-item">Услуги геодезиста</a>
+																	<ul class="sub-menu elementor-nav-menu--dropdown">
+																		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4980">
+																			<a href="дизайн-интерьера-раздел-в-разработке/index.html" class="elementor-sub-item">Услуги геодезиста</a>
+																		</li>
+																	</ul>
+																</li>
+															</ul>
+														</li>
+														<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3059">
+															<a class="elementor-item">Цены</a>
+															<ul class="sub-menu elementor-nav-menu--dropdown">
+																<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3060"><a href="index.html@p=334.html" class="elementor-sub-item"><span class="menu-line">Ремонтно-отделочные
+																			работы</span></a></li>
+																<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5469"><a href="дизайн-интерьера-раздел-в-разработке/index.html" class="elementor-sub-item"><span class="menu-line">Строительно-монтажные
+																			работы</span></a></li>
+																<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5457"><a href="index.html@p=5327.html" class="elementor-sub-item"><span class="menu-line">Калькулятор ремонта</span></a>
+																</li>
+															</ul>
+														</li>
+														<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3071">
+															<a class="elementor-item">Наши работы</a>
+															<ul class="sub-menu elementor-nav-menu--dropdown">
+																<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-386"><a href="index.html@p=381.html" class="elementor-sub-item"><span class="menu-line">Ремонтно-отделочные
+																			работы</span></a></li>
+															</ul>
+														</li>
+														<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-385"><a href="index.html@p=383.html" class="elementor-item">Контакты</a></li>
+													</ul>
+												</nav>
+												<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Переключатель меню" aria-expanded="false">
+													<i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--open eicon-menu-bar"></i><i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--close eicon-close"></i> <span class="elementor-screen-only">Меню</span>
+												</div>
+												<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" role="navigation" aria-hidden="true">
+													<ul id="menu-2-a388371" class="elementor-nav-menu">
+														<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3064"><a href="stroika.html" class="elementor-item" tabindex="-1">Строительство</a></li>
+														<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-77 current_page_item menu-item-3065">
+															<a href="otdelka/index.html" aria-current="page" class="elementor-item elementor-item-active" tabindex="-1">Отделка</a>
+														</li>
+														<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-99">
+															<a class="elementor-item" tabindex="-1">Услуги</a>
+															<ul class="sub-menu elementor-nav-menu--dropdown">
+																<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3069">
+																	<a class="elementor-sub-item" tabindex="-1">Строительно-монтажные работы</a>
+																	<ul class="sub-menu elementor-nav-menu--dropdown">
+																		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3138">
+																			<a href="index.html@p=2980.html" class="elementor-sub-item" tabindex="-1">Строительство домов</a>
+																		</li>
+																		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3083">
+																			<a href="index.html@p=2972.html" class="elementor-sub-item" tabindex="-1">Фундаментные работы</a>
+																		</li>
+																		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3080">
+																			<a href="index.html@p=2995.html" class="elementor-sub-item" tabindex="-1">Кровельные работы</a>
+																		</li>
+																		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3081">
+																			<a href="index.html@p=2990.html" class="elementor-sub-item" tabindex="-1">Фасадные работы</a>
+																		</li>
+																		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3082">
+																			<a href="index.html@p=2985.html" class="elementor-sub-item" tabindex="-1">Строительство заборов</a>
+																		</li>
+																		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3079">
+																			<a href="index.html@p=3000.html" class="elementor-sub-item" tabindex="-1">Ландшафтные работы</a>
+																		</li>
+																	</ul>
+																</li>
+																<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3068">
+																	<a class="elementor-sub-item" tabindex="-1">Ремонтно-отделочные работы</a>
+																	<ul class="sub-menu elementor-nav-menu--dropdown">
+																		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-803">
+																			<a href="index.html@p=714.html" class="elementor-sub-item" tabindex="-1"><span class="menu-line">Ремонт квартир</span></a>
+																		</li>
+																		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-802">
+																			<a href="index.html@p=794.html" class="elementor-sub-item" tabindex="-1"><span class="menu-line">Ремонт домов и коттеджей</span></a>
+																		</li>
+																		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-822">
+																			<a href="index.html@p=820.html" class="elementor-sub-item" tabindex="-1"><span class="menu-line">Ремонт коммерческих помещений</span></a>
+																		</li>
+																		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3836">
+																			<a href="index.html@p=3779.html" class="elementor-sub-item" tabindex="-1"><span class="menu-line">Теплый пол</span></a>
+																		</li>
+																		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3837">
+																			<a href="index.html@p=3795.html" class="elementor-sub-item" tabindex="-1"><span class="menu-line">Стяжка пола</span></a>
+																		</li>
+																		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5075">
+																			<a href="механизированная-штукатурка/index.html" class="elementor-sub-item" tabindex="-1"><span class="menu-line">Механизированная штукатурка</span></a>
+																		</li>
+																		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5076">
+																			<a href="безвоздушная-шпаклевка/index.html" class="elementor-sub-item" tabindex="-1"><span class="menu-line">Безвоздушная шпаклевка</span></a>
+																		</li>
+																		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5077">
+																			<a href="безвоздушная-покраска/index.html" class="elementor-sub-item" tabindex="-1"><span class="menu-line">Безвоздушная покраска</span></a>
+																		</li>
+																	</ul>
+																</li>
+																<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4757">
+																	<a class="elementor-sub-item" tabindex="-1">Дизайн интерьера</a>
+																	<ul class="sub-menu elementor-nav-menu--dropdown">
+																		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4831">
+																			<a href="дизайн-интерьера-2/index.html" class="elementor-sub-item" tabindex="-1">Дизайн интерьера</a>
+																		</li>
+																	</ul>
+																</li>
+																<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4979">
+																	<a class="elementor-sub-item" tabindex="-1">Услуги геодезиста</a>
+																	<ul class="sub-menu elementor-nav-menu--dropdown">
+																		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4980">
+																			<a href="дизайн-интерьера-раздел-в-разработке/index.html" class="elementor-sub-item" tabindex="-1">Услуги геодезиста</a>
+																		</li>
+																	</ul>
+																</li>
+															</ul>
+														</li>
+														<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3059">
+															<a class="elementor-item" tabindex="-1">Цены</a>
+															<ul class="sub-menu elementor-nav-menu--dropdown">
+																<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3060"><a href="index.html@p=334.html" class="elementor-sub-item" tabindex="-1"><span class="menu-line">Ремонтно-отделочные работы</span></a></li>
+																<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5469"><a href="дизайн-интерьера-раздел-в-разработке/index.html" class="elementor-sub-item" tabindex="-1"><span class="menu-line">Строительно-монтажные работы</span></a></li>
+																<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5457"><a href="index.html@p=5327.html" class="elementor-sub-item" tabindex="-1"><span class="menu-line">Калькулятор ремонта</span></a></li>
+															</ul>
+														</li>
+														<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3071">
+															<a class="elementor-item" tabindex="-1">Наши работы</a>
+															<ul class="sub-menu elementor-nav-menu--dropdown">
+																<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-386"><a href="index.html@p=381.html" class="elementor-sub-item" tabindex="-1"><span class="menu-line">Ремонтно-отделочные работы</span></a></li>
+															</ul>
+														</li>
+														<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-385"><a href="index.html@p=383.html" class="elementor-item" tabindex="-1">Контакты</a></li>
+													</ul>
+												</nav>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</header>
+				<div class="elementor-section elementor-top-section elementor-element elementor-element-532c135 elementor-section-full_width elementor-hidden-desktop elementor-section-height-default elementor-section-height-default" data-id="532c135" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;sticky&quot;:&quot;top&quot;,&quot;sticky_on&quot;:[&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0}">
+					<div class="elementor-container elementor-column-gap-no">
+						<div class="elementor-row">
+							<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5e46b0a" data-id="5e46b0a" data-element_type="column">
+								<div class="elementor-column-wrap elementor-element-populated">
+									<div class="elementor-widget-wrap">
+										<section class="elementor-section elementor-inner-section elementor-element elementor-element-72c5daf elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="72c5daf" data-element_type="section">
+											<div class="elementor-container elementor-column-gap-no">
+												<div class="elementor-row">
+													<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-7e9872a" data-id="7e9872a" data-element_type="column">
+														<div class="elementor-column-wrap elementor-element-populated">
+															<div class="elementor-widget-wrap">
+																<div class="elementor-element elementor-element-d51dcbb elementor-widget elementor-widget-theme-site-logo elementor-widget-image" data-id="d51dcbb" data-element_type="widget" data-widget_type="theme-site-logo.default">
+																	<div class="elementor-widget-container">
+																		<div class="elementor-image">
+																			<a href="/">
+																				<img src="logo.png" class="attachment-full size-full" alt="" loading="lazy" /> </a>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-faae86a" data-id="faae86a" data-element_type="column">
+														<div class="elementor-column-wrap elementor-element-populated">
+															<div class="elementor-widget-wrap">
+																<div class="elementor-element elementor-element-0982f84 elementor-widget elementor-widget-image" data-id="0982f84" data-element_type="widget" data-widget_type="image.default">
+																	<div class="elementor-widget-container">
+																		<div class="elementor-image">
+																			<a href="otdelka/index.html#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6Ijg4NCIsInRvZ2dsZSI6ZmFsc2V9">
+																				<img src="wp-content/uploads/2020/10/burger-menu.svg" class="attachment-full size-full" alt="" loading="lazy" /> </a>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</section>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>

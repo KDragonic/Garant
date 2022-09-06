@@ -1,0 +1,128 @@
+body {
+	background-color: var(--e-global-color-secondary);
+}
+
+@media (max-width: 767px) {
+	:root {
+		--e-global-typography-secondary-font-size: 8vw;
+		--e-global-typography-accent-font-size: 4vw;
+		--e-global-typography-b433272-font-size: 8.5vw;
+		--e-global-typography-7f084f4-font-size: 3.3vw;
+		--e-global-typography-731b4e1-font-size: 2.5vw;
+		--e-global-typography-1d439dd-font-size: 4.2vw;
+		--e-global-typography-64e2229-font-size: 5.5vw;
+		--e-global-typography-64e2229-letter-spacing: .5px;
+		--e-global-typography-2ea5bf3-font-size: 20vw;
+		--e-global-typography-179e23c-font-size: 3.5vw;
+		--e-global-typography-88904df-font-size: 4.5vw;
+		--e-global-typography-07f7860-font-size: 2.8vw;
+		--e-global-typography-c5b85cd-font-size: 2.5vw;
+		--e-global-typography-74377ad-font-size: 5vw;
+		--e-global-typography-e82d233-font-size: 3.5vw;
+		--e-global-typography-e82d233-line-height: 1.4em;
+		--e-global-typography-2dc6318-font-size: 5vw;
+	}
+}
+
+@media (max-width: 1024px) {
+	:root {
+		--e-global-typography-secondary-font-size: 4.5vw;
+		--e-global-typography-accent-font-size: 3vw;
+		--e-global-typography-b433272-font-size: 4.3vw;
+		--e-global-typography-7f084f4-font-size: 2vw;
+		--e-global-typography-0875853-font-size: 1.5vw;
+		--e-global-typography-731b4e1-font-size: 1.8vw;
+		--e-global-typography-1d439dd-font-size: 2.4vw;
+		--e-global-typography-64e2229-font-size: 3.3vw;
+		--e-global-typography-179e23c-font-size: 2vw;
+		--e-global-typography-179e23c-line-height: 1em;
+		--e-global-typography-88904df-font-size: 2.5vw;
+		--e-global-typography-07f7860-font-size: 1.8vw;
+		--e-global-typography-c5b85cd-font-size: 1.6vw;
+		--e-global-typography-74377ad-font-size: 2.5vw;
+		--e-global-typography-74377ad-line-height: 1.3em;
+		--e-global-typography-2dc6318-font-size: 3.5vw;
+	}
+}
+
+:root {
+	--e-global-color-primary: #fff;
+	--e-global-color-secondary: #171717;
+	--e-global-color-text: #b8b8b8;
+	--e-global-color-accent: #f19612;
+	--e-global-color-3ed1aac: #2f2f30;
+	--e-global-color-94745ff: #e5e5e5;
+	--e-global-color-0303ad5: #1771f1;
+	--e-global-color-83e2ca2: #fff;
+	--e-global-color-3e05de5: #1c1c1c;
+	--e-global-color-c54256f: #00000000;
+	--e-global-color-99382fd: #252525;
+	--e-global-typography-primary-font-family: "Oswald";
+	--e-global-typography-primary-font-size: 3vw;
+	--e-global-typography-primary-font-weight: 100;
+	--e-global-typography-secondary-font-family: "Oswald";
+	--e-global-typography-secondary-font-size: 3vw;
+	--e-global-typography-secondary-font-weight: 400;
+	--e-global-typography-secondary-text-transform: uppercase;
+	--e-global-typography-secondary-line-height: 1.3em;
+	--e-global-typography-text-font-family: "Muller";
+	--e-global-typography-text-font-weight: 400;
+	--e-global-typography-accent-font-family: "Muller";
+	--e-global-typography-accent-font-weight: 600;
+	--e-global-typography-b433272-font-family: "Oswald";
+	--e-global-typography-b433272-font-size: 4vw;
+	--e-global-typography-b433272-font-weight: 400;
+	--e-global-typography-b433272-text-transform: uppercase;
+	--e-global-typography-b433272-line-height: 1.2em;
+	--e-global-typography-b433272-letter-spacing: 1.4px;
+	--e-global-typography-7f084f4-font-family: "Muller";
+	--e-global-typography-7f084f4-font-size: 1.3vw;
+	--e-global-typography-7f084f4-font-weight: 300;
+	--e-global-typography-7f084f4-line-height: 1.5em;
+	--e-global-typography-7f084f4-letter-spacing: .3px;
+	--e-global-typography-0875853-font-family: "Muller";
+	--e-global-typography-0875853-font-size: 1.3vw;
+	--e-global-typography-0875853-font-weight: 400;
+	--e-global-typography-0875853-line-height: 3em;
+	--e-global-typography-731b4e1-font-family: "Muller";
+	--e-global-typography-731b4e1-font-size: 1vw;
+	--e-global-typography-731b4e1-font-weight: 300;
+	--e-global-typography-731b4e1-line-height: 1.3em;
+	--e-global-typography-1d439dd-font-family: "Muller";
+	--e-global-typography-1d439dd-font-size: 1.5vw;
+	--e-global-typography-1d439dd-font-weight: 300;
+	--e-global-typography-1d439dd-line-height: 1.2em;
+	--e-global-typography-64e2229-font-family: "Oswald";
+	--e-global-typography-64e2229-font-size: 2.5vw;
+	--e-global-typography-64e2229-font-weight: 300;
+	--e-global-typography-64e2229-line-height: 1.1em;
+	--e-global-typography-2ea5bf3-font-family: "Oswald";
+	--e-global-typography-2ea5bf3-font-size: 10vw;
+	--e-global-typography-2ea5bf3-font-weight: 900;
+	--e-global-typography-2ea5bf3-line-height: 1em;
+	--e-global-typography-2ea5bf3-letter-spacing: 0px;
+	--e-global-typography-179e23c-font-family: "Muller";
+	--e-global-typography-179e23c-font-size: 1.2vw;
+	--e-global-typography-179e23c-font-weight: 400;
+	--e-global-typography-179e23c-line-height: 2em;
+	--e-global-typography-88904df-font-family: "Oswald";
+	--e-global-typography-88904df-font-size: 2vw;
+	--e-global-typography-88904df-font-weight: 300;
+	--e-global-typography-07f7860-font-family: "Muller";
+	--e-global-typography-07f7860-font-size: 1.3vw;
+	--e-global-typography-07f7860-font-weight: 600;
+	--e-global-typography-07f7860-line-height: 1.3em;
+	--e-global-typography-c5b85cd-font-family: "Muller";
+	--e-global-typography-c5b85cd-font-size: 1vw;
+	--e-global-typography-c5b85cd-font-weight: 300;
+	--e-global-typography-c5b85cd-line-height: 1.7em;
+	--e-global-typography-74377ad-font-family: "Muller";
+	--e-global-typography-74377ad-font-weight: 400;
+	--e-global-typography-e82d233-font-family: "Muller";
+	--e-global-typography-e82d233-font-weight: 300;
+	--e-global-typography-2dc6318-font-family: "Oswald";
+	--e-global-typography-2dc6318-font-size: 2.2vw;
+	--e-global-typography-2dc6318-font-weight: 300;
+	--e-global-typography-2dc6318-letter-spacing: .3px;
+	background-color: var(--e-global-color-secondary);
+}
